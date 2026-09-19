@@ -1,0 +1,6 @@
+function F1= F1(u,v,phi,rho)
+global epsilon theta A1 A2 M1
+F1=M1*Laplace2d_PNII(fd(phi)/epsilon-(A1/epsilon)*phi+2*theta*g1(phi,rho) ...
+                                                +A2*Laplace2d_PNII(phi))...
+        -gradx(u.*averx_m(phi))-gradyDtoN(v.*averyNtoD(phi));
+end
