@@ -6,12 +6,19 @@ The included example simulates two surfactant-laden droplets in simple shear flo
 
 ## Associated manuscript
 
-This code accompanies the manuscript:
+This code accompanies the paper:
 
-**Mass-Conserving Exponential Time Differencing Gauge Method for the Hydrodynamics-Coupled Binary Fluid-Surfactant Phase-Field Model**  
-Jiayi Duan, Lili Ju, Xiao Li, and Zhonghua Qiao
-
-The manuscript has not yet been published.
+@article{DUAN2027115449,
+title = {Mass-conserving exponential time differencing gauge method for the hydrodynamics-coupled binary fluid-surfactant phase-field model},
+journal = {Journal of Computational Physics},
+volume = {569},
+pages = {115449},
+year = {2027},
+issn = {0021-9991},
+doi = {https://doi.org/10.1016/j.jcp.2026.115449},
+url = {https://www.sciencedirect.com/science/article/pii/S0021999126007989},
+author = {Jiayi Duan and Lili Ju and Xiao Li and Zhonghua Qiao}
+}
 
 ## Main files
 
