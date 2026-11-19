@@ -4,21 +4,23 @@ This MATLAB package provides a two-dimensional implementation of the third-order
 
 The included example simulates two surfactant-laden droplets in simple shear flow on a rectangular domain using a MAC staggered grid and FFT/DCT/DST-based fast solvers.
 
-## Associated manuscript
+## Associated Paper
 
-This code accompanies the paper:
+If you use this code in your research, please cite the following paper:
 
+```bibtex
 @article{DUAN2027115449,
-title = {Mass-conserving exponential time differencing gauge method for the hydrodynamics-coupled binary fluid-surfactant phase-field model},
-journal = {Journal of Computational Physics},
-volume = {569},
-pages = {115449},
-year = {2027},
-issn = {0021-9991},
-doi = {https://doi.org/10.1016/j.jcp.2026.115449},
-url = {https://www.sciencedirect.com/science/article/pii/S0021999126007989},
-author = {Jiayi Duan and Lili Ju and Xiao Li and Zhonghua Qiao}
+  title   = {Mass-conserving exponential time differencing gauge method for the hydrodynamics-coupled binary fluid-surfactant phase-field model},
+  author  = {Jiayi Duan and Lili Ju and Xiao Li and Zhonghua Qiao},
+  journal = {Journal of Computational Physics},
+  volume  = {569},
+  pages   = {115449},
+  year    = {2027},
+  doi     = {10.1016/j.jcp.2026.115449}
 }
+```
+
+**Paper:** [https://doi.org/10.1016/j.jcp.2026.115449](https://doi.org/10.1016/j.jcp.2026.115449)
 
 ## Main files
 
